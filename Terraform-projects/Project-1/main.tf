@@ -241,7 +241,7 @@ resource "null_resource" "deploy" {
         # "echo $JAVA_HOME",y
         "java  -version",
         "echo 'Starting API application ... '",
-        "java  -jar /home/ec2-user/rest-api.jar",
+        "java  -jar /home/ec2-user/rest-api.jar 2>&1 &",
       ]
     }
 
