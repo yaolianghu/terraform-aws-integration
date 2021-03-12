@@ -9,18 +9,18 @@ Both Projects have JAVA code.
 
 
 Project 1:
-1. Create VPC VPC
+1. Create VPC
 2. Create Internet Gateway 
 3. Create Custom Route Table 
 4. Create a Subnet
 5. Associate subnet with Route Table
-6. Create Security Group to allow port 22, 80, 443
+6. Create Security Group to allow port 22, 80, 8080 (API port), 443
 7. Create a network interface with an ip in the subnet. 
 8. Assign an elastic IP to the network interface created in step 7
 9. Create Linux EC2 server
 10. Install JAVA 8 on EC2
-11. Copy files over to the new EC2
-12. Run the Rest API
+11. Copy jar file to the new EC2
+12. Run java command to spin up the API
 13. Visit the API by http://{ec2-public-id}:8080/greeting?name=JOHN
 
 
