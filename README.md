@@ -1,8 +1,12 @@
 # terraform-aws-integration
 Terraform AWS Integration with EC2 + Lambda
 
-Both Projects have JAVA code. Using Maven command to build JAVA code. 
-mvn clean install
+Both Projects have JAVA code. 
+1. Using Maven command to build JAVA code. "mvn clean install"
+2. Using build_and_deploy.sh script to build jar file and run terraform.
+3. Using destroy.sh script to destroy all the resources created in AWS.
+4. *** You will need to create a PEM file within EC2 and replace the pem file name from variable file.
+
 
 Project 1:
 1. Create VPC VPC
