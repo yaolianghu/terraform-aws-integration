@@ -1,5 +1,6 @@
 # terraform-aws-integration
 Terraform AWS Integration with EC2 + Lambda
+Reference document: https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 Both Projects have JAVA code. 
 1. Using Maven command to build JAVA code. "mvn clean install"
