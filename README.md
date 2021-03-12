@@ -1,6 +1,9 @@
 # terraform-aws-integration
 Terraform AWS Integration with EC2 + Lambda
 
+Both Projects have JAVA code. Using Maven command to build JAVA code. 
+mvn clean install
+
 Project 1:
 1. Create VPC VPC
 2. Create Internet Gateway 
