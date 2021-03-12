@@ -22,7 +22,7 @@ resource "aws_api_gateway_integration" "hello_world_integration" {
   http_method             = aws_api_gateway_method.hello_world_method.http_method
   integration_http_method = aws_api_gateway_method.hello_world_method.http_method
   type                    = "AWS"
-  uri                     = "arn:aws:apigateway:${var.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${var.region}:${var.account_id}:function:${aws_lambda_function.hello_world_function.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${var.region}:lambda:path/2021-01-01/functions/arn:aws:lambda:${var.region}:${var.account_id}:function:${aws_lambda_function.hello_world_function.function_name}/invocations"
   credentials             = "arn:aws:iam::${var.account_id}:role/${aws_iam_role.lambda_apigateway_iam_role.name}"
 }
 
