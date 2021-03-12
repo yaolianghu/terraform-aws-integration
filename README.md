@@ -21,6 +21,7 @@ Project 1:
 10. Install JAVA 8 on EC2
 11. Copy files over to the new EC2
 12. Run the Rest API
+13. Visit the API by http://{ec2-public-id}:8080/greeting?name=JOHN
 
 
 Project 2:
@@ -28,4 +29,4 @@ Project 2:
 2. Create API Gateway
 3. Create IAM
 4. Copy the jar file into Lambda
-5. Visit the REST API
+5. Visit the REST API by using API gateway link
